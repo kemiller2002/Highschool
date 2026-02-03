@@ -1,0 +1,127 @@
+{
+  "title": "Algebra 2 – Problem Set (Set C)",
+  "version": "2.0",
+  "notes": "Section 3 / Set C. Uses shared concepts.json. Includes difficulty (1–5) and tags for filtering.",
+  "concepts_ref": "data/concepts.json",
+  "questions": [
+    { "id": "C001", "concept": "linear_equation", "difficulty": 1, "tags": ["solve"], "question": "Solve: 7x + 5 = 47", "answer": "x = 6" },
+    { "id": "C002", "concept": "linear_equation", "difficulty": 2, "tags": ["solve","distribute"], "question": "Solve: 4(2x - 3) = 5x + 9", "answer": "x = 7" },
+    { "id": "C003", "concept": "linear_equation", "difficulty": 2, "tags": ["solve","fractions"], "question": "Solve: (x/3) - 2 = 5", "answer": "x = 21" },
+    { "id": "C004", "concept": "linear_equation", "difficulty": 3, "tags": ["solve","variables-both-sides"], "question": "Solve: 6x - 11 = 3x + 10", "answer": "x = 7" },
+    { "id": "C005", "concept": "linear_equation", "difficulty": 3, "tags": ["solve","multi-step"], "question": "Solve: 5 - 2(3x - 4) = 3x + 1", "answer": "x = 8/9" },
+
+    { "id": "C006", "concept": "linear_inequality", "difficulty": 2, "tags": ["solve","inequality"], "question": "Solve: 3 - 5x > 18", "answer": "x < -3" },
+    { "id": "C007", "concept": "linear_inequality", "difficulty": 2, "tags": ["solve","inequality"], "question": "Solve: -2x + 9 ≤ 1", "answer": "x ≥ 4" },
+    { "id": "C008", "concept": "linear_inequality", "difficulty": 3, "tags": ["compound"], "question": "Solve: -7 ≤ 2x + 1 < 9", "answer": "-4 ≤ x < 4" },
+    { "id": "C009", "concept": "linear_inequality", "difficulty": 4, "tags": ["absolute-value-inequality"], "question": "Solve: |x - 2| < 5", "answer": "-3 < x < 7" },
+    { "id": "C010", "concept": "linear_inequality", "difficulty": 4, "tags": ["absolute-value-inequality"], "question": "Solve: |2x + 1| ≥ 9", "answer": "x ≤ -5 or x ≥ 4" },
+
+    { "id": "C011", "concept": "absolute_value", "difficulty": 2, "tags": ["equation","cases"], "question": "Solve: |x - 8| = 3", "answer": "x = 5 or x = 11" },
+    { "id": "C012", "concept": "absolute_value", "difficulty": 3, "tags": ["equation","cases"], "question": "Solve: |3x + 2| = 14", "answer": "x = 4 or x = -16/3" },
+    { "id": "C013", "concept": "absolute_value", "difficulty": 3, "tags": ["graph"], "question": "Write a function whose graph is a V with vertex at (2, -1) opening upward.", "answer": "y = |x - 2| - 1" },
+    { "id": "C014", "concept": "absolute_value", "difficulty": 4, "tags": ["inequality","cases"], "question": "Solve: |x + 4| ≤ 2", "answer": "-6 ≤ x ≤ -2" },
+    { "id": "C015", "concept": "absolute_value", "difficulty": 4, "tags": ["inequality","cases"], "question": "Solve: |x| > 7", "answer": "x < -7 or x > 7" },
+
+    { "id": "C016", "concept": "functions_basics", "difficulty": 1, "tags": ["evaluate"], "question": "If f(x)=x^2-4x, find f(6).", "answer": "f(6)=12" },
+    { "id": "C017", "concept": "functions_basics", "difficulty": 2, "tags": ["evaluate"], "question": "If g(x)=2x+5, find g(-7).", "answer": "g(-7)=-9" },
+    { "id": "C018", "concept": "functions_basics", "difficulty": 2, "tags": ["interpret"], "question": "In words, what does f(3)= -2 mean?", "answer": "When the input is 3, the output is -2." },
+    { "id": "C019", "concept": "functions_basics", "difficulty": 3, "tags": ["average-rate-of-change"], "question": "Find the average rate of change of f(x)=x^2 from x=2 to x=5.", "answer": "7" },
+    { "id": "C020", "concept": "functions_basics", "difficulty": 4, "tags": ["difference-quotient"], "question": "Compute the average rate of change of f(x)=x^2+1 from x=1 to x=4.", "answer": "5" },
+
+    { "id": "C021", "concept": "functions_domain_range", "difficulty": 2, "tags": ["domain","rational"], "question": "State the domain of f(x)=1/(x-4).", "answer": "All real x except x=4" },
+    { "id": "C022", "concept": "functions_domain_range", "difficulty": 2, "tags": ["domain","radical"], "question": "State the domain of f(x)=√(x+7).", "answer": "x ≥ -7" },
+    { "id": "C023", "concept": "functions_domain_range", "difficulty": 3, "tags": ["domain","radical"], "question": "State the domain of f(x)=√(5x-10).", "answer": "x ≥ 2" },
+    { "id": "C024", "concept": "functions_domain_range", "difficulty": 3, "tags": ["domain","rational"], "question": "State the domain of f(x)=(x+3)/(x^2-9).", "answer": "x ≠ 3 and x ≠ -3" },
+    { "id": "C025", "concept": "functions_domain_range", "difficulty": 5, "tags": ["domain","nested"], "question": "State the domain of f(x)=√(1/(x-2)).", "answer": "x > 2" },
+
+    { "id": "C026", "concept": "functions_domain_range", "difficulty": 3, "tags": ["range","quadratic"], "question": "State the range of f(x)=(x-2)^2+5.", "answer": "y ≥ 5" },
+    { "id": "C027", "concept": "functions_domain_range", "difficulty": 4, "tags": ["range","absolute-value"], "question": "State the range of f(x)= -|x-3| + 2.", "answer": "y ≤ 2" },
+    { "id": "C028", "concept": "functions_domain_range", "difficulty": 3, "tags": ["range"], "question": "State the range of f(x)=3^x.", "answer": "y > 0" },
+    { "id": "C029", "concept": "functions_domain_range", "difficulty": 4, "tags": ["range"], "question": "State the range of f(x)= -2^x.", "answer": "y < 0" },
+    { "id": "C030", "concept": "functions_domain_range", "difficulty": 4, "tags": ["range","rational"], "question": "What is the horizontal asymptote of f(x)=1/(x+5)?", "answer": "y=0" },
+
+    { "id": "C031", "concept": "functions_transformations", "difficulty": 2, "tags": ["shift"], "question": "Describe the transformation from y=x^2 to y=(x+2)^2.", "answer": "Shift left 2" },
+    { "id": "C032", "concept": "functions_transformations", "difficulty": 2, "tags": ["shift"], "question": "Describe the transformation from y=√x to y=√(x-9).", "answer": "Shift right 9" },
+    { "id": "C033", "concept": "functions_transformations", "difficulty": 3, "tags": ["stretch"], "question": "Describe the transformation from y=x^2 to y=3x^2.", "answer": "Vertical stretch by factor of 3" },
+    { "id": "C034", "concept": "functions_transformations", "difficulty": 3, "tags": ["reflect"], "question": "Describe the transformation from y=x^2 to y=-x^2.", "answer": "Reflection over the x-axis" },
+    { "id": "C035", "concept": "functions_transformations", "difficulty": 4, "tags": ["multi-transform"], "question": "Describe transformations from y=|x| to y=-3|x+2|.", "answer": "Left 2, vertical stretch by 3, reflect over x-axis" },
+
+    { "id": "C036", "concept": "functions_transformations", "difficulty": 4, "tags": ["multi-transform"], "question": "Describe transformations from y=x^3 to y=-2(x+1)^3+5.", "answer": "Left 1; vertical stretch by 2; reflect over x-axis; up 5" },
+    { "id": "C037", "concept": "functions_composition_inverse", "difficulty": 2, "tags": ["composition"], "question": "If f(x)=x+1 and g(x)=x^2, find (f∘g)(x).", "answer": "x^2+1" },
+    { "id": "C038", "concept": "functions_composition_inverse", "difficulty": 2, "tags": ["composition"], "question": "If f(x)=2x and g(x)=x-3, find (g∘f)(x).", "answer": "2x-3" },
+    { "id": "C039", "concept": "functions_composition_inverse", "difficulty": 3, "tags": ["inverse"], "question": "Find the inverse of f(x)=2x-7.", "answer": "f⁻¹(x)=(x+7)/2" },
+    { "id": "C040", "concept": "functions_composition_inverse", "difficulty": 4, "tags": ["inverse","one-to-one"], "question": "What test checks if a function has an inverse without restricting domain?", "answer": "Horizontal line test" },
+
+    { "id": "C041", "concept": "functions_composition_inverse", "difficulty": 4, "tags": ["inverse","restrict-domain"], "question": "Is f(x)=x^2+1 invertible on all reals? If not, give a restriction.", "answer": "Not one-to-one; restrict to x≥0 (or x≤0)." },
+    { "id": "C042", "concept": "functions_composition_inverse", "difficulty": 5, "tags": ["inverse","restricted-domain"], "question": "Find the inverse of f(x)=(x-2)^2 with domain x≥2.", "answer": "f⁻¹(x)=2+√x" },
+    { "id": "C043", "concept": "quadratics", "difficulty": 2, "tags": ["solve","factor"], "question": "Solve: x^2 - x - 12 = 0", "answer": "x=4 or x=-3" },
+    { "id": "C044", "concept": "quadratics", "difficulty": 3, "tags": ["vertex"], "question": "Find the vertex of y= x^2 + 8x + 10.", "answer": "(-4, -6)" },
+    { "id": "C045", "concept": "quadratics", "difficulty": 3, "tags": ["vertex-form"], "question": "Write y=2x^2-12x+7 in vertex form.", "answer": "y=2(x-3)^2-11" },
+
+    { "id": "C046", "concept": "quadratics", "difficulty": 4, "tags": ["discriminant"], "question": "How many real solutions does 3x^2+2x+5=0 have?", "answer": "0 real solutions" },
+    { "id": "C047", "concept": "quadratics", "difficulty": 5, "tags": ["solve","quadratic-formula"], "question": "Solve: 2x^2+7x-4=0", "answer": "x=1/2 or x=-4" },
+    { "id": "C048", "concept": "quadratics", "difficulty": 4, "tags": ["maximum-minimum"], "question": "Find the maximum or minimum of y=-2(x-1)^2+7.", "answer": "Maximum value 7 at x=1" },
+
+    { "id": "C049", "concept": "polynomials_factoring", "difficulty": 2, "tags": ["difference-of-squares"], "question": "Factor: 9x^2 - 25", "answer": "(3x-5)(3x+5)" },
+    { "id": "C050", "concept": "polynomials_factoring", "difficulty": 3, "tags": ["difference-of-cubes"], "question": "Factor: 8x^3 - 1", "answer": "(2x-1)(4x^2+2x+1)" },
+    { "id": "C051", "concept": "polynomials_factoring", "difficulty": 3, "tags": ["sum-of-cubes"], "question": "Factor: x^3 + 64", "answer": "(x+4)(x^2-4x+16)" },
+    { "id": "C052", "concept": "polynomials_factoring", "difficulty": 5, "tags": ["grouping"], "question": "Factor: x^3 + 2x^2 + 3x + 6", "answer": "(x^2+3)(x+2)" },
+    { "id": "C053", "concept": "polynomials_factoring", "difficulty": 4, "tags": ["factor-completely"], "question": "Factor completely: x^4 - 16", "answer": "(x-2)(x+2)(x^2+4)" },
+
+    { "id": "C054", "concept": "polynomials_division", "difficulty": 3, "tags": ["remainder-theorem"], "question": "Find the remainder when p(x)=2x^3-3x+4 is divided by (x-2).", "answer": "14" },
+    { "id": "C055", "concept": "polynomials_division", "difficulty": 4, "tags": ["synthetic-division"], "question": "Divide x^3+4x^2-7x-10 by (x+5). Give quotient and remainder.", "answer": "Quotient: x^2-x-2; remainder 0" },
+    { "id": "C056", "concept": "polynomials_division", "difficulty": 5, "tags": ["factor-theorem"], "question": "Given p(x)=x^3-6x^2+11x-6, list all real zeros.", "answer": "1, 2, 3" },
+
+    { "id": "C057", "concept": "polynomials_graphs", "difficulty": 2, "tags": ["end-behavior"], "question": "Describe end behavior of f(x)=-x^4+3x^2.", "answer": "As x→±∞, f(x)→-∞" },
+    { "id": "C058", "concept": "polynomials_graphs", "difficulty": 3, "tags": ["turning-points"], "question": "What is the maximum number of turning points for a degree 7 polynomial?", "answer": "6" },
+    { "id": "C059", "concept": "polynomials_graphs", "difficulty": 3, "tags": ["multiplicity"], "question": "If (x+1)^2 is a factor, does the graph cross or touch at x=-1?", "answer": "Touch (even multiplicity)" },
+    { "id": "C060", "concept": "polynomials_graphs", "difficulty": 5, "tags": ["build-polynomial"], "question": "Write a polynomial with real coefficients with zeros 2 (mult 2) and -1 (mult 1) and leading coefficient 3.", "answer": "3(x-2)^2(x+1)" },
+    { "id": "C061", "concept": "polynomials_graphs", "difficulty": 4, "tags": ["end-behavior"], "question": "Describe end behavior of f(x)=3x^6-x^2+9.", "answer": "As x→±∞, f(x)→∞" },
+
+    { "id": "C062", "concept": "rational_expressions", "difficulty": 2, "tags": ["simplify"], "question": "Simplify: (x^2-4)/(x-2)", "answer": "x+2 (x≠2)" },
+    { "id": "C063", "concept": "rational_expressions", "difficulty": 3, "tags": ["add","lcd"], "question": "Simplify: 1/x + 2/(x+1)", "answer": "(3x+1)/(x(x+1))" },
+    { "id": "C064", "concept": "rational_expressions", "difficulty": 4, "tags": ["subtract","lcd"], "question": "Simplify: (2/x) - (3/(x+2))", "answer": "(x+4)/(x(x+2))" },
+    { "id": "C065", "concept": "rational_expressions", "difficulty": 4, "tags": ["complex-fraction"], "question": "Simplify: ((1/x) / (2/x^2))", "answer": "x/2 (x≠0)" },
+    { "id": "C066", "concept": "rational_expressions", "difficulty": 5, "tags": ["solve","rational-equation"], "question": "Solve: 1/(x-1) + 1/(x+1) = 1", "answer": "x=±√3" },
+    { "id": "C067", "concept": "rational_expressions", "difficulty": 5, "tags": ["solve"], "question": "Solve: (x+1)/(x-2) = (x-3)/x", "answer": "x=3/2 (x≠0,2)" },
+
+    { "id": "C068", "concept": "rational_functions", "difficulty": 3, "tags": ["vertical-asymptote"], "question": "Find vertical asymptotes of f(x)=(x+1)/(x^2-4).", "answer": "x=2 and x=-2" },
+    { "id": "C069", "concept": "rational_functions", "difficulty": 3, "tags": ["horizontal-asymptote"], "question": "Find horizontal asymptote of f(x)=(5x^3-1)/(2x^3+7).", "answer": "y=5/2" },
+    { "id": "C070", "concept": "rational_functions", "difficulty": 4, "tags": ["slant-asymptote"], "question": "Find the slant asymptote of f(x)=(x^2+1)/(x-1).", "answer": "y=x+1" },
+    { "id": "C071", "concept": "rational_functions", "difficulty": 5, "tags": ["holes","asymptotes"], "question": "For f(x)=(x^2-1)/(x^2-x), identify any hole(s) and vertical asymptote(s).", "answer": "Hole at x=1; vertical asymptote at x=0" },
+    { "id": "C072", "concept": "rational_functions", "difficulty": 3, "tags": ["transform"], "question": "For f(x)=1/(x-3)+2, state vertical and horizontal asymptotes.", "answer": "Vertical: x=3; Horizontal: y=2" },
+
+    { "id": "C073", "concept": "radicals", "difficulty": 1, "tags": ["simplify"], "question": "Simplify: √72", "answer": "6√2" },
+    { "id": "C074", "concept": "radicals", "difficulty": 2, "tags": ["rational-exponent"], "question": "Simplify: 16^(3/4)", "answer": "8" },
+    { "id": "C075", "concept": "radicals", "difficulty": 3, "tags": ["rationalize"], "question": "Rationalize: 5/√3", "answer": "5√3/3" },
+    { "id": "C076", "concept": "radicals", "difficulty": 4, "tags": ["variables"], "question": "Simplify: √(48x^4y^3) assuming x,y≥0.", "answer": "4x^2y√(3y)" },
+    { "id": "C077", "concept": "radicals", "difficulty": 4, "tags": ["absolute-value"], "question": "Simplify: √(36x^2) (no assumptions on x).", "answer": "6|x|" },
+    { "id": "C078", "concept": "radicals", "difficulty": 5, "tags": ["rational-exponent"], "question": "Simplify: 32^(4/5)", "answer": "16" },
+
+    { "id": "C079", "concept": "radical_equations", "difficulty": 3, "tags": ["solve","extraneous"], "question": "Solve and check: √(x-1)=x-5", "answer": "x=6 (x=3 is extraneous)" },
+    { "id": "C080", "concept": "radical_equations", "difficulty": 4, "tags": ["solve","two-radicals"], "question": "Solve and check: √(x+4) - √x = 2", "answer": "x=0" },
+    { "id": "C081", "concept": "radical_equations", "difficulty": 4, "tags": ["solve","extraneous"], "question": "Solve and check: √(3x+1)=x+1", "answer": "x=1 (x=-2 is extraneous)" },
+    { "id": "C082", "concept": "radical_equations", "difficulty": 5, "tags": ["solve","two-radicals"], "question": "Solve and check: √(2x+3)=√(x-1)+2", "answer": "x=6" },
+
+    { "id": "C083", "concept": "complex_numbers", "difficulty": 2, "tags": ["powers-of-i"], "question": "Compute: i^4", "answer": "1" },
+    { "id": "C084", "concept": "complex_numbers", "difficulty": 3, "tags": ["powers-of-i"], "question": "Compute: i^3", "answer": "-i" },
+    { "id": "C085", "concept": "complex_numbers", "difficulty": 3, "tags": ["multiply"], "question": "Compute: (3i)(2i)", "answer": "-6" },
+    { "id": "C086", "concept": "complex_numbers", "difficulty": 4, "tags": ["simplify"], "question": "Simplify: (4+3i) + (2-7i)", "answer": "6-4i" },
+
+    { "id": "C087", "concept": "exponentials", "difficulty": 2, "tags": ["properties"], "question": "Simplify: 3^4 · 3^2", "answer": "3^6 = 729" },
+    { "id": "C088", "concept": "exponentials", "difficulty": 3, "tags": ["solve"], "question": "Solve: 2^(x+1)=32", "answer": "x=4" },
+    { "id": "C089", "concept": "exponentials", "difficulty": 4, "tags": ["solve","rewrite-base"], "question": "Solve: 9^x = 3^(2x+4)", "answer": "x=2" },
+    { "id": "C090", "concept": "exponentials", "difficulty": 4, "tags": ["model"], "question": "A quantity starts at 120 and increases 6% each month. Write the model.", "answer": "A(t)=120(1.06)^t" },
+    { "id": "C091", "concept": "exponentials", "difficulty": 3, "tags": ["interpret"], "question": "In P(t)=800(0.92)^t, what does 0.92 mean?", "answer": "An 8% decrease per time unit" },
+    { "id": "C092", "concept": "exponentials", "difficulty": 5, "tags": ["solve","log-form"], "question": "Solve (exact form): 5^x = 17", "answer": "x = ln(17)/ln(5)" },
+    { "id": "C093", "concept": "exponentials", "difficulty": 3, "tags": ["solve"], "question": "Solve: 4^(x-1)=64", "answer": "x=4" },
+    { "id": "C094", "concept": "exponentials", "difficulty": 3, "tags": ["compare"], "question": "Which is larger: 2^10 or 10^3?", "answer": "2^10 (1024) is larger than 10^3 (1000)" },
+
+    { "id": "C095", "concept": "logarithms", "difficulty": 2, "tags": ["convert"], "question": "Rewrite in exponential form: log_5(125)=3", "answer": "5^3=125" },
+    { "id": "C096", "concept": "logarithms", "difficulty": 3, "tags": ["evaluate"], "question": "Evaluate: log_2(1/8)", "answer": "-3" },
+    { "id": "C097", "concept": "logarithms", "difficulty": 4, "tags": ["solve"], "question": "Solve: log_3(x-2)=4", "answer": "x=83" },
+    { "id": "C098", "concept": "logarithms", "difficulty": 4, "tags": ["expand"], "question": "Expand: log((x^3√y)/7)", "answer": "3log(x) + (1/2)log(y) - log(7)" },
+    { "id": "C099", "concept": "logarithms", "difficulty": 5, "tags": ["solve","properties"], "question": "Solve: log_2(x) + log_2(x-4) = 5", "answer": "x=8" },
+    { "id": "C100", "concept": "modeling", "difficulty": 5, "tags": ["interpret","extrapolation"], "question": "Why might a model be unreliable far outside the data’s x-range?", "answer": "Because extrapolation may break assumptions and become inaccurate" }
+  ]
+}
