@@ -253,6 +253,7 @@
         </div>
 
         <button type="button" onclick="applyFilters()">Apply</button>
+        <button type="button" onclick="newRandomSet()">New random set</button>
         <button type="button" onclick="expandAll()">Show all answers</button>
         <button type="button" onclick="collapseAll()">Hide all answers</button>
       </div>
@@ -523,6 +524,8 @@
           document.getElementById("showConceptSelect").value = init.showConcept;
 
           applyFilters(true);
+
+          wireAutoApply();
         } catch (e) {
           showError(
             "Could not load JSON file(s).\n\n" +
@@ -561,13 +564,17 @@
         select.value = exists ? current : "__all__";
       }
 
-      function applyFilters(isInitial = false) {
+      function applyFilters(isInitial = false, forceReshuffle = false) {
         const concept =
           document.getElementById("conceptSelect").value || "__all__";
-        const count = Math.max(
-          1,
-          parseInt(document.getElementById("countInput").value || "25", 10),
-        );
+
+        // sanitize count
+        let countRaw = document.getElementById("countInput").value;
+        let count = parseInt(countRaw, 10);
+        if (!Number.isFinite(count) || count <= 0) count = 25;
+        count = Math.min(500, Math.max(1, count));
+        document.getElementById("countInput").value = String(count);
+
         const order =
           document.getElementById("shuffleSelect").value || "shuffle";
         const showConcept =
@@ -579,18 +586,45 @@
           pool = pool.filter((q) => q.concept === concept);
         }
 
-        if (order === "shuffle") {
+        // IMPORTANT: if shuffle selected, reshuffle each time Apply runs.
+        // Also allow forcing reshuffle even if some state might be sticky.
+        if (order === "shuffle" || forceReshuffle) {
           shuffleArray(pool);
         }
 
-        CURRENT_RENDER = pool.slice(0, count);
+        // clamp count to available
+        const finalCount = Math.min(count, pool.length);
+        CURRENT_RENDER = pool.slice(0, finalCount);
 
         renderCards(CURRENT_RENDER, showConcept === "show");
 
-        // typeset math after render
         if (window.MathJax && window.MathJax.typesetPromise) {
           window.MathJax.typesetPromise().catch(() => {});
         }
+      }
+
+      function wireAutoApply() {
+        const conceptSelect = document.getElementById("conceptSelect");
+        const countInput = document.getElementById("countInput");
+        const shuffleSelect = document.getElementById("shuffleSelect");
+        const showConceptSelect = document.getElementById("showConceptSelect");
+
+        // Apply immediately when dropdowns change
+        conceptSelect.addEventListener("change", () =>
+          applyFilters(false, true),
+        );
+        shuffleSelect.addEventListener("change", () =>
+          applyFilters(false, true),
+        );
+        showConceptSelect.addEventListener("change", () =>
+          applyFilters(false, false),
+        );
+
+        // Apply when count changes or Enter is pressed
+        countInput.addEventListener("change", () => applyFilters(false, true));
+        countInput.addEventListener("keydown", (e) => {
+          if (e.key === "Enter") applyFilters(false, true);
+        });
       }
 
       function renderCards(questions, showConcept) {
@@ -694,7 +728,12 @@
           b.dataset.open = "false";
         });
       }
+      function newRandomSet() {
+        // Force reshuffle regardless of current selection
+        applyFilters(false, true);
+      }
 
+      window.newRandomSet = newRandomSet;
       // expose
       window.toggleAnswer = toggleAnswer;
       window.expandAll = expandAll;
