@@ -8,16 +8,16 @@
   <style>
     body {
       font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      max-width: 700px;
+      max-width: 760px;
       margin: 40px auto;
       padding: 0 16px;
-      line-height: 1.5;
+      line-height: 1.55;
       background: #fafafa;
       color: #222;
     }
 
     h1 {
-      font-size: 1.8rem;
+      font-size: 1.9rem;
       margin-bottom: 0.25em;
     }
 
@@ -27,16 +27,21 @@
 
     .card {
       margin-top: 24px;
-      padding: 20px;
-      border-radius: 12px;
+      padding: 20px 22px;
+      border-radius: 14px;
       background: #ffffff;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      margin-bottom: 0.4em;
     }
 
     a {
       display: inline-block;
       margin-top: 12px;
-      font-size: 1.1rem;
+      font-size: 1.05rem;
       text-decoration: none;
       color: #0066cc;
       font-weight: 600;
@@ -47,7 +52,7 @@
     }
 
     footer {
-      margin-top: 48px;
+      margin-top: 56px;
       font-size: 0.9rem;
       color: #777;
     }
@@ -56,22 +61,36 @@
 
 <body>
 
-  <h1>📘 Study Guides</h1>
-  <p>Select a subject below to begin studying.</p>
+  <h1>📘 Math Study Guides</h1>
+  <p>
+    Use the guides below to review concepts, practice problems, and build confidence.
+    Open this file in any web browser.
+  </p>
 
   <div class="card">
     <h2>Algebra</h2>
     <p>
       Core algebra topics including imaginary numbers, exponents, factoring,
-      inverses, and radical equations with practice problems and answers.
+      inverse functions, and radical equations with practice problems and answers.
     </p>
     <a href="algebra/studyguide.html">➡ Open Algebra Study Guide</a>
   </div>
 
+  <div class="card">
+    <h2>Algebra 2 – Graphs & Function Behavior</h2>
+    <p>
+      Focuses on graph interpretation, polynomial behavior, end behavior,
+      transformations, exponential vs polynomial growth, and asymptotes.
+    </p>
+    <a href="algebra2/behavior-and-graphs.html">
+      ➡ Open Algebra 2 Graphs & Behavior Guide
+    </a>
+  </div>
+
   <footer>
     <p>
-      Shared for study and review.<br />
-      Open this file in any web browser.
+      These materials are for study and review.<br />
+      No login or internet connection required.
     </p>
   </footer>
 
