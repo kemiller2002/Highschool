@@ -1,0 +1,127 @@
+{
+  "title": "Algebra 2 – 100 Question Problem Set (Set A)",
+  "version": "2.0",
+  "notes": "Upgraded from v1.0 to the shared-concepts schema. Each question now uses: concept (key), difficulty (1–5), and tags (array). Display names are provided by data/concepts.json.",
+  "concepts_ref": "data/concepts.json",
+  "questions": [
+    { "id": "A001", "concept": "linear_equation", "difficulty": 1, "tags": ["solve"], "question": "Solve: 3x - 7 = 11", "answer": "x = 6" },
+    { "id": "A002", "concept": "linear_equation", "difficulty": 3, "tags": ["solve","distribute"], "question": "Solve: 5(2x + 1) = 3x + 22", "answer": "x = 17/7" },
+    { "id": "A003", "concept": "linear_inequality", "difficulty": 2, "tags": ["solve","inequality"], "question": "Solve the inequality: 4 - 2x ≤ 10", "answer": "x ≥ -3" },
+    { "id": "A004", "concept": "linear_inequality", "difficulty": 3, "tags": ["compound","inequality"], "question": "Solve: -2 < 3x + 1 ≤ 7", "answer": "-1 < x ≤ 2" },
+    { "id": "A005", "concept": "absolute_value", "difficulty": 3, "tags": ["equation","cases"], "question": "Solve: |2x - 5| = 7", "answer": "x = 6 or x = -1" },
+    { "id": "A006", "concept": "absolute_value", "difficulty": 4, "tags": ["inequality","cases"], "question": "Solve: |x + 3| < 5", "answer": "-8 < x < 2" },
+    { "id": "A007", "concept": "systems", "difficulty": 3, "tags": ["systems","linear","substitution"], "question": "Solve the system: 2x + y = 7 and x - y = 1", "answer": "x = 8/3, y = 5/3" },
+    { "id": "A008", "concept": "systems", "difficulty": 3, "tags": ["systems","linear","elimination"], "question": "Solve the system: 3x - 2y = 4 and 5x + 2y = 16", "answer": "x = 2, y = 1" },
+    { "id": "A009", "concept": "radicals", "difficulty": 2, "tags": ["exponent-rules","product"], "question": "Simplify: (x^3 y^2)(x^2 y^5)", "answer": "x^5 y^7" },
+    { "id": "A010", "concept": "radicals", "difficulty": 1, "tags": ["exponent-rules","quotient"], "question": "Simplify: a^5 / a^2", "answer": "a^3" },
+
+    { "id": "A011", "concept": "radicals", "difficulty": 2, "tags": ["rational-exponent","evaluate"], "question": "Simplify: 27^(2/3)", "answer": "9" },
+    { "id": "A012", "concept": "radicals", "difficulty": 2, "tags": ["simplify","radical"], "question": "Simplify: √50", "answer": "5√2" },
+    { "id": "A013", "concept": "radicals", "difficulty": 3, "tags": ["simplify","absolute-value"], "question": "Simplify: √(x^2)", "answer": "|x|" },
+    { "id": "A014", "concept": "rational_expressions", "difficulty": 2, "tags": ["simplify","restrictions"], "question": "Simplify: (x^2 - 9)/(x - 3) and state restrictions", "answer": "x + 3, with x ≠ 3" },
+    { "id": "A015", "concept": "rational_expressions", "difficulty": 2, "tags": ["simplify","restrictions"], "question": "Simplify: (x^2 + 5x + 6)/(x + 2) and state restrictions", "answer": "x + 3, with x ≠ -2" },
+
+    { "id": "A016", "concept": "radical_equations", "difficulty": 2, "tags": ["solve"], "question": "Solve: √(x + 1) = 5", "answer": "x = 24" },
+    { "id": "A017", "concept": "radical_equations", "difficulty": 4, "tags": ["solve","check","extraneous"], "question": "Solve and check: √(x + 5) = x - 1", "answer": "x = 4 (x = 0 is extraneous)" },
+    { "id": "A018", "concept": "radical_equations", "difficulty": 2, "tags": ["solve"], "question": "Solve: √(2x - 3) = 7", "answer": "x = 26" },
+    { "id": "A019", "concept": "radical_equations", "difficulty": 4, "tags": ["solve","check","extraneous"], "question": "Solve and check: √(x + 2) = x - 4", "answer": "x = 6 (x = 3 is extraneous)" },
+    { "id": "A020", "concept": "complex_numbers", "difficulty": 4, "tags": ["powers-of-i"], "question": "Simplify: i^23", "answer": "-i" },
+
+    { "id": "A021", "concept": "complex_numbers", "difficulty": 4, "tags": ["multiply","distribute"], "question": "Multiply: (3 - 2i)(1 + 4i)", "answer": "11 + 10i" },
+    { "id": "A022", "concept": "complex_numbers", "difficulty": 3, "tags": ["solve","quadratic","complex-roots"], "question": "Solve: x^2 + 4 = 0", "answer": "x = ±2i" },
+    { "id": "A023", "concept": "polynomials_factoring", "difficulty": 2, "tags": ["factor","difference-of-squares"], "question": "Factor: x^2 - 16", "answer": "(x - 4)(x + 4)" },
+    { "id": "A024", "concept": "polynomials_factoring", "difficulty": 2, "tags": ["factor","trinomial"], "question": "Factor: x^2 + 7x + 10", "answer": "(x + 5)(x + 2)" },
+    { "id": "A025", "concept": "polynomials_factoring", "difficulty": 4, "tags": ["factor","difference-of-cubes"], "question": "Factor: x^3 - 27", "answer": "(x - 3)(x^2 + 3x + 9)" },
+
+    { "id": "A026", "concept": "polynomials_factoring", "difficulty": 4, "tags": ["factor","sum-of-cubes"], "question": "Factor: x^3 + 8", "answer": "(x + 2)(x^2 - 2x + 4)" },
+    { "id": "A027", "concept": "quadratics", "difficulty": 2, "tags": ["solve","difference-of-squares"], "question": "Solve: x^2 - 9 = 0", "answer": "x = 3 or x = -3" },
+    { "id": "A028", "concept": "quadratics", "difficulty": 2, "tags": ["solve","factor"], "question": "Solve: x^2 + 5x + 6 = 0", "answer": "x = -2 or x = -3" },
+    { "id": "A029", "concept": "quadratics", "difficulty": 4, "tags": ["solve","quadratic-formula"], "question": "Solve: x^2 - 4x - 1 = 0", "answer": "x = 2 ± √5" },
+    { "id": "A030", "concept": "quadratics", "difficulty": 3, "tags": ["vertex-form","complete-the-square"], "question": "Write in vertex form: y = x^2 + 6x + 5", "answer": "y = (x + 3)^2 - 4" },
+
+    { "id": "A031", "concept": "quadratics", "difficulty": 3, "tags": ["vertex"], "question": "Find the vertex of y = 2x^2 - 8x + 1", "answer": "(2, -7)" },
+    { "id": "A032", "concept": "quadratics", "difficulty": 2, "tags": ["axis-of-symmetry"], "question": "Find the axis of symmetry of y = -3x^2 + 12x - 5", "answer": "x = 2" },
+    { "id": "A033", "concept": "quadratics", "difficulty": 4, "tags": ["maximum-minimum","vertex"], "question": "Does y = -x^2 + 6x have a maximum or minimum, and what is it?", "answer": "Maximum value 9 at x = 3" },
+    { "id": "A034", "concept": "functions_basics", "difficulty": 2, "tags": ["evaluate"], "question": "If f(x) = 2x^2 - 3x + 1, find f(4)", "answer": "f(4) = 21" },
+    { "id": "A035", "concept": "functions_composition_inverse", "difficulty": 3, "tags": ["inverse","linear"], "question": "Find the inverse of f(x) = 3x + 5", "answer": "f⁻¹(x) = (x - 5)/3" },
+
+    { "id": "A036", "concept": "functions_composition_inverse", "difficulty": 2, "tags": ["composition"], "question": "If f(x)=x+2 and g(x)=3x, find (f∘g)(x)", "answer": "(f∘g)(x) = 3x + 2" },
+    { "id": "A037", "concept": "functions_composition_inverse", "difficulty": 2, "tags": ["composition"], "question": "If f(x)=x^2 and g(x)=x-1, find (g∘f)(x)", "answer": "(g∘f)(x) = x^2 - 1" },
+    { "id": "A038", "concept": "functions_transformations", "difficulty": 2, "tags": ["shift"], "question": "Describe transformations from y=x^2 to y=(x-4)^2+3", "answer": "Shift right 4, up 3" },
+    { "id": "A039", "concept": "functions_transformations", "difficulty": 4, "tags": ["multi-transform","reflect","stretch","shift"], "question": "Describe transformations from y=|x| to y=-2|x+1|+5", "answer": "Left 1, vertical stretch by 2, reflect over x-axis, up 5" },
+    { "id": "A040", "concept": "polynomials_graphs", "difficulty": 2, "tags": ["degree","leading-coefficient"], "question": "For f(x)= -2x^5 + x^3, state the degree and leading coefficient", "answer": "Degree 5, leading coefficient -2" },
+
+    { "id": "A041", "concept": "polynomials_graphs", "difficulty": 2, "tags": ["end-behavior"], "question": "Describe end behavior of f(x)=x^4-3x^2", "answer": "As x→±∞, f(x)→∞" },
+    { "id": "A042", "concept": "polynomials_graphs", "difficulty": 3, "tags": ["end-behavior"], "question": "Describe end behavior of f(x)=-x^3+2", "answer": "As x→∞, f(x)→-∞; as x→-∞, f(x)→∞" },
+    { "id": "A043", "concept": "polynomials_graphs", "difficulty": 2, "tags": ["turning-points"], "question": "Maximum possible turning points of a 6th-degree polynomial?", "answer": "5" },
+    { "id": "A044", "concept": "polynomials_graphs", "difficulty": 3, "tags": ["zeros","multiplicity"], "question": "For p(x)=(x-1)^2(x+3), list zeros and multiplicities", "answer": "x=1 mult 2; x=-3 mult 1" },
+    { "id": "A045", "concept": "polynomials_graphs", "difficulty": 2, "tags": ["multiplicity","behavior"], "question": "Does a graph cross or touch at a zero with even multiplicity?", "answer": "Touch and turn (does not cross)" },
+
+    { "id": "A046", "concept": "polynomials_division", "difficulty": 4, "tags": ["synthetic-division"], "question": "Use synthetic division to divide x^3 - 4x^2 + x + 6 by (x-2)", "answer": "Quotient x^2 - 2x - 3, remainder 0" },
+    { "id": "A047", "concept": "polynomials_division", "difficulty": 3, "tags": ["remainder-theorem"], "question": "Find the remainder when x^3 + 2x - 5 is divided by (x-1)", "answer": "-2" },
+    { "id": "A048", "concept": "polynomials_division", "difficulty": 3, "tags": ["factor-theorem"], "question": "Is (x+2) a factor of x^3 - 8?", "answer": "No (p(-2) = -16 ≠ 0)" },
+    { "id": "A049", "concept": "polynomials_division", "difficulty": 5, "tags": ["polynomial-long-division"], "question": "Divide: (2x^3+3x^2-5x+6) ÷ (x+2)", "answer": "Quotient 2x^2 - x - 3, remainder 12" },
+    { "id": "A050", "concept": "rational_expressions", "difficulty": 3, "tags": ["solve","rational-equation","restrictions"], "question": "Solve: (x-2)/(x+1) = 3", "answer": "x = -5/2 (x ≠ -1)" },
+
+    { "id": "A051", "concept": "rational_expressions", "difficulty": 3, "tags": ["solve","rational-equation","restrictions"], "question": "Solve: 2/(x-4) = 1/3", "answer": "x = 10" },
+    { "id": "A052", "concept": "rational_expressions", "difficulty": 5, "tags": ["solve","rational-inequality","sign-chart"], "question": "Solve: (x-1)/(x+2) > 0", "answer": "(-∞, -2) ∪ (1, ∞)" },
+    { "id": "A053", "concept": "rational_functions", "difficulty": 3, "tags": ["vertical-asymptote"], "question": "Find vertical asymptotes of f(x)=2/(x^2-9)", "answer": "x = 3 and x = -3" },
+    { "id": "A054", "concept": "rational_functions", "difficulty": 3, "tags": ["horizontal-asymptote"], "question": "Find horizontal asymptote of f(x)=(3x^2+1)/(5x^2-7)", "answer": "y = 3/5" },
+    { "id": "A055", "concept": "rational_functions", "difficulty": 3, "tags": ["holes","removable-discontinuity"], "question": "For f(x)=(x^2-9)/(x-3), what is the hole’s x-value?", "answer": "x = 3" },
+
+    { "id": "A056", "concept": "exponentials", "difficulty": 1, "tags": ["evaluate"], "question": "Evaluate: 2^5", "answer": "32" },
+    { "id": "A057", "concept": "exponentials", "difficulty": 2, "tags": ["properties"], "question": "Simplify: 3^2 · 3^4", "answer": "3^6 = 729" },
+    { "id": "A058", "concept": "exponentials", "difficulty": 2, "tags": ["solve","same-base"], "question": "Solve: 5^(x+1) = 125", "answer": "x = 2" },
+    { "id": "A059", "concept": "exponentials", "difficulty": 2, "tags": ["solve","same-base"], "question": "Solve: 2^x = 16", "answer": "x = 4" },
+    { "id": "A060", "concept": "exponentials", "difficulty": 2, "tags": ["model","growth"], "question": "A population starts at 500 and grows 8% per year. Write the model.", "answer": "P(t)=500(1.08)^t" },
+
+    { "id": "A061", "concept": "exponentials", "difficulty": 2, "tags": ["model","decay"], "question": "A substance starts at 200g and decays 12% per year. Write the model.", "answer": "A(t)=200(0.88)^t" },
+    { "id": "A062", "concept": "logarithms", "difficulty": 2, "tags": ["definition","convert"], "question": "Rewrite in log form: 2^5 = 32", "answer": "log_2(32)=5" },
+    { "id": "A063", "concept": "logarithms", "difficulty": 2, "tags": ["definition","convert"], "question": "Rewrite in exponential form: log_3(81)=4", "answer": "3^4=81" },
+    { "id": "A064", "concept": "logarithms", "difficulty": 1, "tags": ["evaluate","common-log"], "question": "Evaluate: log_10(1000)", "answer": "3" },
+    { "id": "A065", "concept": "logarithms", "difficulty": 1, "tags": ["evaluate"], "question": "Evaluate: log_2(64)", "answer": "6" },
+
+    { "id": "A066", "concept": "logarithms", "difficulty": 1, "tags": ["properties","product"], "question": "Expand: log(AB)", "answer": "log(A) + log(B)" },
+    { "id": "A067", "concept": "logarithms", "difficulty": 1, "tags": ["properties","quotient"], "question": "Expand: log(A/B)", "answer": "log(A) - log(B)" },
+    { "id": "A068", "concept": "logarithms", "difficulty": 1, "tags": ["properties","power"], "question": "Expand: log(A^k)", "answer": "k·log(A)" },
+    { "id": "A069", "concept": "logarithms", "difficulty": 2, "tags": ["solve"], "question": "Solve: log_3(x) = 2", "answer": "x = 9" },
+    { "id": "A070", "concept": "logarithms", "difficulty": 1, "tags": ["solve","natural-log"], "question": "Solve: ln(x) = 0", "answer": "x = 1" },
+
+    { "id": "A071", "concept": "logarithms", "difficulty": 3, "tags": ["solve","properties"], "question": "Solve: log_10(x) + log_10(2) = 3", "answer": "x = 500" },
+    { "id": "A072", "concept": "logarithms", "difficulty": 3, "tags": ["solve","domain"], "question": "Solve: log_2(x-1)=4", "answer": "x = 17" },
+    { "id": "A073", "concept": "logarithms", "difficulty": 2, "tags": ["domain"], "question": "State the domain of f(x)=log(x-5)", "answer": "x > 5" },
+    { "id": "A074", "concept": "logarithms", "difficulty": 2, "tags": ["condense"], "question": "Condense: log(3) + log(x)", "answer": "log(3x)" },
+    { "id": "A075", "concept": "logarithms", "difficulty": 4, "tags": ["expand","properties"], "question": "Expand: log( (x^2√y)/5 )", "answer": "2log(x) + (1/2)log(y) - log(5)" },
+
+    { "id": "A076", "concept": "quadratics", "difficulty": 3, "tags": ["discriminant","real-roots"], "question": "For x^2 + 2x + 5 = 0, how many real solutions?", "answer": "0 real solutions (discriminant < 0)" },
+    { "id": "A077", "concept": "quadratics", "difficulty": 3, "tags": ["discriminant","real-roots"], "question": "For 2x^2 - 3x + 1 = 0, how many real solutions?", "answer": "2 real solutions (discriminant > 0)" },
+    { "id": "A078", "concept": "quadratics", "difficulty": 3, "tags": ["discriminant","double-root"], "question": "For x^2 - 6x + 9 = 0, how many real solutions?", "answer": "1 real solution (double root; discriminant = 0)" },
+    { "id": "A079", "concept": "quadratics", "difficulty": 2, "tags": ["intercepts","y-intercept"], "question": "Find y-intercept of y = x^2 - 4x + 7", "answer": "(0, 7)" },
+    { "id": "A080", "concept": "quadratics", "difficulty": 2, "tags": ["intercepts","x-intercepts"], "question": "Find x-intercepts of y = x^2 - 5x + 6", "answer": "x = 2 and x = 3" },
+
+    { "id": "A081", "concept": "polynomials_graphs", "difficulty": 3, "tags": ["multiplicity","touch"], "question": "If p(x)=(x-2)^2(x+1), does the graph cross at x=2?", "answer": "No, it touches and turns (even multiplicity)" },
+    { "id": "A082", "concept": "polynomials_graphs", "difficulty": 3, "tags": ["multiplicity","cross"], "question": "If p(x)=(x+3)^3, does the graph cross at x=-3?", "answer": "Yes, it crosses (odd multiplicity)" },
+
+    { "id": "A083", "concept": "systems", "difficulty": 3, "tags": ["matrices","multiply","2x2"], "question": "Compute: [[1,2],[3,4]] · [[2,0],[1,5]]", "answer": "[[4,10],[10,20]]" },
+    { "id": "A084", "concept": "systems", "difficulty": 3, "tags": ["matrices","determinant","2x2"], "question": "Find det of [[3,1],[5,2]]", "answer": "3·2 - 1·5 = 1" },
+    { "id": "A085", "concept": "systems", "difficulty": 4, "tags": ["matrices","inverse","2x2"], "question": "Find the inverse of [[1,2],[3,4]]", "answer": "(-1/2)·[[4,-2],[-3,1]] = [[-2,1],[3/2,-1/2]]" },
+
+    { "id": "A086", "concept": "sequences_series", "difficulty": 2, "tags": ["arithmetic","nth-term"], "question": "Find the 10th term: a1=4, d=3", "answer": "a10 = 31" },
+    { "id": "A087", "concept": "sequences_series", "difficulty": 2, "tags": ["arithmetic","explicit"], "question": "Write explicit formula: a1=7, d=-2", "answer": "a_n = 7 - 2(n-1)" },
+    { "id": "A088", "concept": "sequences_series", "difficulty": 2, "tags": ["geometric","nth-term"], "question": "Find the 6th term: a1=2, r=3", "answer": "a6 = 2·3^5 = 486" },
+    { "id": "A089", "concept": "sequences_series", "difficulty": 2, "tags": ["geometric","explicit"], "question": "Write explicit formula: a1=5, r=1/2", "answer": "a_n = 5(1/2)^(n-1)" },
+    { "id": "A090", "concept": "sequences_series", "difficulty": 3, "tags": ["geometric","sum"], "question": "Find the sum of first 5 terms: a1=3, r=2", "answer": "S5 = 3(2^5-1)/(2-1) = 93" },
+
+    { "id": "A091", "concept": "functions_basics", "difficulty": 3, "tags": ["piecewise","evaluate"], "question": "If f(x)= {x+2 for x<0; x^2 for x≥0}, find f(-3)", "answer": "-1" },
+    { "id": "A092", "concept": "functions_basics", "difficulty": 3, "tags": ["piecewise","evaluate"], "question": "If f(x)= {x+2 for x<0; x^2 for x≥0}, find f(4)", "answer": "16" },
+    { "id": "A093", "concept": "quadratics", "difficulty": 5, "tags": ["inequality","solve","intervals"], "question": "Solve: x^2 - 4x - 5 > 0", "answer": "(-∞, -1) ∪ (5, ∞)" },
+    { "id": "A094", "concept": "quadratics", "difficulty": 5, "tags": ["inequality","solve","intervals"], "question": "Solve: x^2 + 2x - 8 ≤ 0", "answer": "[-4, 2]" },
+    { "id": "A095", "concept": "functions_domain_range", "difficulty": 3, "tags": ["domain","radical"], "question": "State the domain of f(x)=√(3x-12)", "answer": "x ≥ 4" },
+
+    { "id": "A096", "concept": "functions_domain_range", "difficulty": 3, "tags": ["domain","rational"], "question": "State the domain of f(x)= (x+1)/(x^2-1)", "answer": "x ≠ 1 and x ≠ -1" },
+    { "id": "A097", "concept": "functions_domain_range", "difficulty": 3, "tags": ["domain","log"], "question": "State the domain of f(x)=ln(2x+6)", "answer": "x > -3" },
+    { "id": "A098", "concept": "logarithms", "difficulty": 4, "tags": ["solve","change-of-base","exact"], "question": "Solve: 4^x = 10 (exact form)", "answer": "x = log(10)/log(4) = ln(10)/ln(4)" },
+    { "id": "A099", "concept": "logarithms", "difficulty": 2, "tags": ["solve","convert"], "question": "Solve: log_5(x) = -2", "answer": "x = 1/25" },
+    { "id": "A100", "concept": "functions_basics", "difficulty": 3, "tags": ["average-rate-of-change"], "question": "Find the average rate of change of f(x)=x^2 from x=1 to x=4", "answer": "(f(4)-f(1))/(4-1) = (16-1)/3 = 5" }
+  ]
+}
